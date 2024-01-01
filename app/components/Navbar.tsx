@@ -3,6 +3,7 @@
 import { Disclosure } from "@headlessui/react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import Themebutton from "./Themebutton";
 
 export default function Navbar() {
 
@@ -47,10 +48,12 @@ export default function Navbar() {
                                 >
                                     Projects
                                 </Link>
+                                <Themebutton />
                             </div>
                         </div>
 
                         <div className="-mr-2 flex items-center sm:hidden">
+                            <Themebutton />
                             <Disclosure.Button className="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-pink-500 dark:hover:bg-gray-800">
                                 {open ?(
                                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
