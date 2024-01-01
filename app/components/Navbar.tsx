@@ -27,7 +27,7 @@ export default function Navbar() {
                                 <Link href="/" prefetch className={`${
                                     pathname === "/" 
                                     ? "border-pink-500 dark:text-white h-full inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium" 
-                                    : "border-transparent text-gray-500 dark:text-gray-300 dark:hover:text-white inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium"
+                                    : "border-transparent text-gray-500 dark:text-gray-300 hover:text-black dark:hover:text-white inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium"
                                 }`}
                                 >
                                     Home
@@ -43,7 +43,7 @@ export default function Navbar() {
                                 <Link href="/projects" prefetch className={`${
                                     pathname === "/projects" 
                                     ? "border-pink-500 dark:text-white h-full inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium" 
-                                    : "border-transparent text-gray-500 dark:text-gray-300 dark:hover:text-white inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium"
+                                    : "border-transparent text-gray-500 dark:text-gray-300 hover:text-black dark:hover:text-white inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium"
                                 }`}
                                 >
                                     Projects
@@ -73,7 +73,7 @@ export default function Navbar() {
                 <Disclosure.Panel className="sm:hidden">
                     <div className="pt-2 pb-3 space-y-1">
                         <Link href="/" prefetch className={`${pathname == "/" ? "bg-pink-50 border-pink-500 text-pink-500 block pl-3 pr-4 py-2 border-l-4 text-base font-medium dark:bg-gray-800" 
-                        : "border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-white block pl-3 pr-4 py-2 dark:hover:bg-gray-700 border-l-4 text-base font-medium dark-text-white"
+                        : "border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-pink-500 block pl-3 pr-4 py-2 dark:hover:bg-gray-700 border-l-4 text-base font-medium dark:text-white"
                         } `}>
                             Home
                         </Link>
@@ -83,7 +83,7 @@ export default function Navbar() {
                             Guestbook
                         </Link> */}
                         <Link href="/projects" prefetch className={`${pathname == "/projects" ? "bg-pink-50 border-pink-500 text-pink-500 block pl-3 pr-4 py-2 border-l-4 text-base font-medium dark:bg-gray-800" 
-                        : "border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-white block pl-3 pr-4 py-2 dark:hover:bg-gray-700 border-l-4 text-base font-medium dark-text-white"
+                        : "border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-pink-500 block pl-3 pr-4 py-2 dark:hover:bg-gray-700 border-l-4 text-base font-medium dark:text-white"
                         } `}>
                             Projects
                         </Link>
