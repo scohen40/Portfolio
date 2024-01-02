@@ -48,11 +48,11 @@ export default function Home() {
             </a>
           </div>
         </div>
-
+    
         <div className="prose max-w-none prose-lg pt-8 pb-8 dark:prose-invert xl:col-span-2">
           <p>Hello! I'm Sarah Cohen, a Software Engineer based in New York.</p>
           <p>My journey in the tech world is driven by a passion for crafting practical, user-friendly solutions. I'm committed to bringing my best to every project I tackle.The time I studied Computer Science, along with my professional and volunteer experiences, has given me a great mix of theoretical knowledge and practical tech skills. As a Software Engineer I’ve dived into the world of app development with the MyQR QR Code Scanning App, ensuring it worked smoothly across various Android devices, integrating APIs and developing UI/backend code. Additionally, as the Director of the Hack It Together LCW Women’s Hackathon I had the opportunity to sharpen my leadership and communication skills, all while using tech to bring people together and make a positive difference.</p>
-          <p>When I'm not coding, you can find me in my garden, growing veggies and herbs, having fun with my dogs, or hiking with friends. I'm also building a Little Free Library for my neighborhood – it's a small way I can give back and share my love for reading. Over on my GitHub, you'll see me experimenting with new technologies like OpenAI’s Assistant API and keeping up with languages and tools like Java, JavaScript, Python, SQL, Bootstrap, and Node.js. As I continue to move forward in my tech career, I'm super excited about collaborating on innovative projects and making cool things happen in the tech world.</p>
+          <p>When I'm not coding, you can find me in my garden, growing veggies and herbs, having fun with my dogs, or hiking with friends. I'm also building a Little Free Library for my neighborhood – it's a small way I can give back and share my love for reading. Over on my GitHub, you'll see me building projects with new technologies like OpenAI’s Assistant API and keeping up with languages and tools like Java, JavaScript, Python, SQL, Bootstrap, and Node.js. As I continue to move forward in my tech career, I'm super excited about collaborating on innovative projects and making cool things happen in the tech world.</p>
         </div>
       </div>
 
