@@ -22,7 +22,7 @@ export default {
             name: 'link',
             type: 'string',
             title: 'Link',
-        }
+        },
 
-    ]
+    ],
 }
