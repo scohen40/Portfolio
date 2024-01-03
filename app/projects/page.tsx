@@ -54,11 +54,11 @@ export default async function Projects() {
                                 </h3>
                             </a>
 
-                            <p className="line-clamp-2 mt-2 text-sm leading-relaxed text-gray-500 dark:text-gray-400">
+                            <p className="line-clamp-3 mt-2 text-sm leading-relaxed text-gray-500 dark:text-gray-400">
                                 {project.overview}
                             </p>
 
-                            <a href={project.link} target="_blank" className="group mt-4 inline-flex items-center gap-1 text-sm fon-medium text-pink-500">
+                            <a href={project.link} target="_blank" className="group mt-4 inline-flex items-center gap-1 text-sm font-medium text-pink-500">
                                 Learn More!
                                 <span className="block transition-all group-hover:ms-0.5">
                                     &rarr;
